@@ -1,0 +1,9 @@
+What are the steps for counting sort? what is the time complexity? 
+
+1. got through array and take a counting array for each number. 
+2. make array of 0 to highest number in data set, with the values at each index being the sum of that numbers appearance, and all previous numbers (numbers appearance , and all previous numbers (numbers lower than it). 
+3. Make a new array of length === input.length. 
+4. go through input, plug that number in index array, out that number and index of new array that's equal to the number of index array. Substract number at index array by 1. continue.)
+
+time and space are O(n + k) where n is the input length and k is the range of values. 
+
