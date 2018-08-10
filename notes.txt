@@ -7,3 +7,10 @@ What are the steps for counting sort? what is the time complexity?
 
 time and space are O(n + k) where n is the input length and k is the range of values. 
 
+what problem does bind solve in Javascript? how does it accoplish this? 
+
+It binds this, or whatever context you want. It does this by taking in an argument that is the context that's prevseved. 
+
+What is the syntax for passing argument sto the bind function? 
+
+function.bind(context) where funciton is the funciton you're calling andn context is the context you want to preserve. 
