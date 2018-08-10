@@ -14,3 +14,14 @@ It binds this, or whatever context you want. It does this by taking in an argume
 What is the syntax for passing argument sto the bind function? 
 
 function.bind(context) where funciton is the funciton you're calling andn context is the context you want to preserve. 
+
+what are the different type of SQL Joins? 
+
+Inner join 
+left join 
+right join 
+full join 
+
+what is the difference between an inner join and a left join? 
+
+Inner join returns only data on both tables where condition is met. left join would return what inner join return as well as records on the left (1st/ able A) even if there's no matching records on table B. 
